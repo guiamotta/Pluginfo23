@@ -1,0 +1,215 @@
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center;
+    background-color: rgba(255, 188, 188, 0.474);
+}
+
+@media screen and (min-width: 1050px){
+    .loginWindow{    
+        position: absolute;
+        top: 126px;
+        left: 50%;
+        margin-left: -302.5px;
+    }
+    
+    .loginWindow-overlay{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* Define uma cor preta semi-transparente */
+        z-index: 999; 
+    }
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 605px;
+        height: 400px;
+        background: #dedede;
+        border-radius: 15px;
+    }
+
+    .title{
+        margin-left: 30px;
+    }
+
+    .h2-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000; 
+    }
+
+
+    .input1, .input2{
+        width: 500px;
+        height: 20px;
+        background: #F1F5F9;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+
+    .loginButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ff0000;
+        border-radius: 5px;
+        color: #FFFFFF;
+        height: 60px;
+        width: 260px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .cancelButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        color: #DB1E1E;
+        line-height: 24px;
+        font-weight: 600;
+        border: 1px solid #DB1E1E;
+        height: 60px;
+        width: 260px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 1049px){
+    .loginWindow{    
+        position: absolute;
+        top: 106px;
+        left: 50%;
+        margin-left: -165px;
+    
+    }   
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 330px;
+        height: 457px;
+        background: #dedede;
+        border-radius: 15px;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+
+    .h2-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000; 
+        margin-bottom: -50px;
+        margin-left: 35px;
+    }
+
+
+    input{
+        width: 204px;
+        height: 20px;
+        background: #F5F5F5;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 0px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+
+    .loginButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ff0000;
+        border-radius: 5px;
+        color: #FFFFFF;
+        height: 60px;
+        width: 260px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .cancelButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        color: #DB1E1E;
+        line-height: 24px;
+        font-weight: 600;
+        border: 1px solid #DB1E1E;
+        height: 60px;
+        width: 260px;
+        border-radius: 5px;
+    }
+}
